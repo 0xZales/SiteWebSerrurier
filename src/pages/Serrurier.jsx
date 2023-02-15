@@ -35,12 +35,12 @@ const Serrurier = () => {
         <img
           src={certif}
           alt=""
-          className="z-10 opacity-100 absolute left-20 top-10"
+          className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         />
         <h1 className="absolute text-white md:left-[20%] left-8 top-48 text-4xl font-bold">
           Ouverture de porte
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-32  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
+        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
           <div className="w-full h-14 flex items-center justify-center gap-3">
             <div className="w-2/12 h-[2px] bg-white"></div>
             <p className="text-xl italic">On vous rappelle </p>
@@ -73,90 +73,73 @@ const Serrurier = () => {
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
             <h1 className="text-[#061729] text-2xl font-bold">
-              L'ouverture de porte
+              Serrurerie - Vitrerie - Rideaux Métallique
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
-            Vous avez perdu vos clés, vous êtes victime d’un cambriolage, vous
-            avez tout simplement claqué la porte et vous ne pouvez plus rentrer.
-            Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-            pour vous dépanner, sans changer la serrure si ce n’est pas
-            nécessaire en pratiquant la technique d’ouverture fine pour
-            l’ouverture de votre porte.
-          </p>
-          <br />
-          <p>
-            Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-            pour vous dépanner, sans changer la serrure si ce n’est pas
-            nécessaire en pratiquant la technique d’ouverture fine pour
-            l’ouverture de votre porte.
+            Vous avez besoin d’un serrurier vitrier en urgence fiable en moins
+            de 30 min ? Nous intervenons sur Bordeaux, la Gironde, Archachon et
+            son bassin. Quelque soit votre soucis de serrurerie ou vitrerie sur
+            Bordeaux : Ouverture de porte Porte claquée Perte de clés Clé cassée
+            Serrure blindée qui ne ferme ou ne s’ouvre plus Serrure forcée Votre
+            porte ne peut pas s’ouvrir Votre vitrage est à remplacer. Rapid
+            Dépannage 33 intervient dans les domaines de la serrurerie et
+            vitrerie. Votre serrurier vitrier d’urgence certifié et diplômé
+            d’état. Devis gratuit.
           </p>
         </div>
-        <div className="flex flex-col gap-2">
-          <h1 className="text-[#061729] text-xl font-bold">La porte claquée</h1>
+        <div className="flex w-full flex-col ">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] text-2xl font-bold">
+              Domaines d'intervention
+            </h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
           <p>
-            {" "}
-            Lorsqu’une porte – simple ou blindée – est claquée, la technique de
-            la feuille radio devrait permettre l’ouverture de la porte.
-            Ceci-dit, on a rarement une radiographie sous la main quand on se
-            retrouve coincé en extérieur. Votre dépanneur a, lui, à disposition
-            l’outillage nécessaire pour toute ouverture de porte sans endommager
-            la serrure.
+            Notre expertise en tant que serrurier vitrier nous permet
+            d’intervenir sur le dépannage et la pose de tout type de serrures*.
+            Mais également sur tout type de vitrage, qu’il soit fissuré, cassé,
+            vandalisé. * Nous utilisons les méthodes d’ouvertures fines pour
+            assurer un minimum de frais.
+          </p>
+        </div>
+        <div className="flex w-full flex-col gap-2">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] text-2xl font-bold">Assurance</h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+            Pensez à vérifier votre couverture en cas d’effraction ou de perte
+            de clés. En effet, votre banque ou votre assurance habitation
+            peuvent couvrir tous services et réparations de vitrerie. Que ce
+            soit pour une vitre cassée ou fissurée (avec la prise en charge par
+            l’assurance de “bris de glace”). Un serrurier d’urgence intervient
+            pour: ouverture de porte simple ou porte blindée remplacement de
+            cylindre ou serrure en fonction des clauses incluses dans les
+            contrats. Avant les vacances Pensez à l’opération Tranquillité
+            Vacances Prévenez la Gendarmerie Vérifiez l’état de vos portes et
+            serrures Prévenez vos voisins
+          </p>
+          <img src={locked} alt="serrurier" className="md:w-[50%]" />
+        </div>
+        <div className="flex w-full flex-col gap-3">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] text-2xl font-bold">Cambriolage</h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+            Si vous avez été cambriolé, votre porte ou cylindre ont été forcé ou
+            cassé, une vitre cassée, contactez immédiatement la Police ou la
+            Gendarmerie Nationale. Contactez ensuite votre assurance, ainsi
+            qu’un serrurier en urgence et un vitrier pour l’installation de
+            serrure ou remplacement de vitrage à Bordeaux pour la mise en
+            sécurité.
           </p>
           <img src={porte} alt="Serrurier" className="md:w-2/4 m-auto" />
-        </div>
-        <div className="flex flex-col gap-2 mt-2 w-full">
-          <h1 className="text-[#061729] text-xl font-bold">
-            La porte fermée à clé
-          </h1>
-          <div className="flex md:flex-row w-full flex-col items-center">
-            <p className="md:w-[50%]">
-              {" "}
-              Lorsqu’une porte – simple ou blindée – est claquée, la technique
-              de la feuille radio devrait permettre l’ouverture de la porte.
-              Ceci-dit, on a rarement une radiographie sous la main quand on se
-              retrouve coincé en extérieur. Votre dépanneur a, lui, à
-              disposition l’outillage nécessaire pour toute ouverture de porte
-              sans endommager la serrure.
-            </p>
-            <img src={locked} alt="serrurier" className="md:w-[50%] md:mt-0 mt-3" />
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold">
-            Pose de serrure de boite aux lettres
-          </h1>
-          <div className="flex md:flex-row w-full flex-col gap-5 items-center">
-            <img src={locked} alt="serrurier" className="md:w-[30%]" />
-            <p className="md:w-[50%]">
-              {" "}
-              Vous avez perdu votre trousseau ou clé de la serrure de boite aux
-              lettres. Nous pouvons vous la remplacer.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold">
-            Pose de ferme porte
-          </h1>
-          <div className="flex md:flex-row w-full flex-col gap-5 items-center">
-            <p className="md:w-[50%]">
-              {" "}
-              Le ferme porte aussi appelé groom est un dispositif font le
-              mécanisme assure la fermeture automatique d’une porte. Ce
-              dispositif permet d’assurer la fermeture d’une porte de hall,
-              d’escalier ou d’un portail en toute sécurité. Il existe des fermes
-              porte à bras compas, à bras coulissant ou à ressort. Quel que soit
-              le modèle, il est indispensable de porter une attention toute
-              particulière à la pose, pour que le ferme porte joue pleinement
-              son rôle. Obert Serrurier Toulouse vous accompagne dans le choix,
-              la pose et les réglages de votre ferme porte.
-            </p>
-            <img src={locked} alt="serrurier" className="md:w-[50%]" />
-          </div>
         </div>
       </section>
     </div>

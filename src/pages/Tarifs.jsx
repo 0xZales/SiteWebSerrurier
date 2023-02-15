@@ -27,7 +27,7 @@ const Tarifs = () => {
       };
   return (
     <div>
-      <section
+       <section
         className={` banner w-full h-[500px] banner  text-black bg-cover bg-center bg-sky-500/100 relative `}
         style={{ backgroundImage: `url(${banner})` }}
       >
@@ -35,12 +35,12 @@ const Tarifs = () => {
         <img
           src={certif}
           alt=""
-          className="z-10 opacity-100 absolute left-20 top-10"
+          className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         />
         <h1 className="absolute text-white md:left-[20%] left-8 top-48 text-4xl font-bold">
           Ouverture de porte
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-32  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
+        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
           <div className="w-full h-14 flex items-center justify-center gap-3">
             <div className="w-2/12 h-[2px] bg-white"></div>
             <p className="text-xl italic">On vous rappelle </p>

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { navLikns } from "../constant/index.js";
 const Header = () => {
   const [active, setActive] = useState("serrurerie");
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
   const show = (lien)=>{
     setActive(lien.link)
     setVisible(false)
