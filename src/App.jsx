@@ -16,7 +16,7 @@ function App() {
       <Header />
         <Routes>
           <Route path="/rideaux-metallique" element={<Rideaux />} />
-          <Route path="/serrurerie" element={<Serrurier />} />
+          <Route path="/" element={<Serrurier />} />
           <Route path="/vitrerie" element={<Vitrine />} />
           <Route path="/tarifs" element={<Tarifs />} />
         </Routes>

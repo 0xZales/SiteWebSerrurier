@@ -2,7 +2,7 @@ export const navLikns = [
     {
         id: 1,
         title: "Serrurier",
-        link: 'serrurerie'
+        link: ''
     },
     {
         id: 2,
