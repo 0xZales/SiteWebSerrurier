@@ -69,7 +69,7 @@ const Header = () => {
             <p>Rideaux Métallique</p>
           </div>
         </div>
-        <ul className="w-2/4 md:flex hidden justify-between">
+        <ul className="w-3/12 md:flex hidden justify-between">
           {navLikns.map((link) => (
             <li key={link.id}>
               <Link
