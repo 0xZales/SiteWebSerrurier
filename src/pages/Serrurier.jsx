@@ -220,7 +220,7 @@ const Serrurier = () => {
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
               <h1 className="text-left w-full">Service de vitrerie</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
-              <h1 className="w-full text-left">  Nous consulter  </h1>
+              <h1 className="w-full text-left"> Nous consulter </h1>
               <div className="w-full flex justify-start items-center ">
                 <svg
                   width="40"
@@ -338,19 +338,345 @@ const Serrurier = () => {
           </p>
           <img src={locked} alt="serrurier" className="md:w-[50%]" />
         </div>
+
+        <div className="flex w-full flex-col gap-3 ">
+          <div className="flex gap-2 items-center justify-center">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] md:text-2xl font-bold">
+              Nos valeurs
+            </h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <div className="w-full flex md:flex-row flex-col gap-5">
+            <div className="flex flex-col md:w-4/12">
+              <h1 className="underline mb-2 ">Serrurier intervention rapide</h1>
+              Nous intervenons en général en moins de 30mn sur Bordeaux et en
+              moins d'une heure dans les autres zones de l'aire urbaine de
+              Bordelaise - 24h/24 et 7j/7
+            </div>
+            <div className="flex flex-col md:w-4/12">
+              <h1 className="underline md-2">Serrurier intervention rapide</h1>
+              Nous intervenons en général en moins de 30mn sur Bordeaux et en
+              moins d'une heure dans les autres zones de l'aire urbaine de
+              Bordelaise - 24h/24 et 7j/7
+            </div>
+            <div className="flex flex-col md:w-4/12">
+              <h1 className="underline md-2">
+                Zones d’intervention en détail.
+              </h1>
+              Bordeaux, Bordeaux lac, Floirac, Talence, Cenon, Bruges, Eysines,
+              Blanquefort, Bassens, Gradignan, Canéjan, Léognan, Lastrene,
+              Artigues-près-Bordeaux, Bègles, Lormont, Mérignac, Pessac, Le
+              Bouscat, Bruges, Villenave-d'Ornon, Carbon-Blanc, Cadaujac
+            </div>
+          </div>
+          <p>
+            Spécialiste en travaux de vitrerie-serrurerie, Rapid Dépannage 33
+            est votre prestataire qualifié pour toute intervention dans la ville
+            de Bordeaux et ses environs. Il n’est en effet pas évident de
+            trouver un serrurier fiable et disponible en tout temps dans
+            l’urgence. Grâce à notre équipe de professionnels avérés, nous vous
+            assurons un travail impeccable et réalisé dans les meilleurs délais,
+            en vue de garantir votre sécurité. Serrurier Bordeaux : nos zones
+            d'opération entreprise en France Contactez la société Rapid
+            Dépannage Toulouse, pour une assistance avec une ligne de service de
+            qualité fiable en moins d’une demi-heure. Quelle que soit la
+            prestation dont vous avez besoin, nous prenons en charge l’opération
+            pour préserver la sécurité de votre domicile ou de votre local
+            commercial. Nous proposons les services suivants : L’ouverture de
+            porte Le dépannage d’une porte claquée et d’une serrure blindée
+            bloquée Le remplacement de clés cassées, de serrures forcées…
+          </p>
+        </div>
         <div className="flex w-full flex-col gap-3">
           <div className="flex gap-2 items-center justify-center">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">
-              Serrurier intervention rapide
+            <h1 className="text-[#061729] md:text-2xl font-bold">
+              Serrurier Bordeaux : nos zones d'opération entreprise en France
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
-            Nous intervenons en général en moins de 30mn sur Bordeaux et en
-            moins d'une heure dans les autres zones de l'aire urbaine de
-            Bordeaux - 24h/24 et 7j/7
+            Notre société déploie ses services de serruriers artisans sur
+            Bordeaux et ses environs, notamment :
           </p>
+          <ul className="ml-5 list-disc h-80 flex flex-col flex-wrap">
+            <li>Bordeaux</li>
+            <li>Bordeaux lac</li>
+            <li>Floirac</li>
+            <li>Talence</li>
+            <li>Cenon</li>
+            <li>Bruges</li>
+            <li>Eysines</li>
+            <li>Blanquefort</li>
+            <li>Bassens</li>
+            <li>Gradignan</li>
+            <li>Canéjan</li>
+            <li>Léognan</li>
+            <li>Lastrene</li>
+            <li>Artigues-près-Bordeaux</li>
+            <li>Bègles</li>
+            <li>Lormont</li>
+            <li>Mérignac</li>
+            <li>Pessac</li>
+            <li>Le Bouscat</li>
+            <li>Bruges</li>
+            <li>Villenave-d'Ornon</li>
+            <li>Carbon-Blanc</li>
+            <li>Cadaujac</li>
+          </ul>
+          <p>
+            Le serrurier Rapid Dépannage 33 pas cher vous promet une
+            intervention rapide, efficace et au meilleur prix. S’il vous faut
+            par exemple une réparation de serrurerie sur les quais , le
+            serrurier Rapid Dépannage 33 centre se tient à votre disposition. De
+            même, pour un dépannage de porte claquée aux Chartrons , le
+            serrurier Rapid dépannage 33 vous garantit une excellente
+            prestation. Où que vous soyez, soyez sûr de profiter de notre
+            savoir-faire. Les principaux domaines d’un serrurier Les opérations
+            de serrurerie ne se limitent pas à la reproduction de clefs et au
+            dépannage de serrures. C’est en effet un métier qui a constamment
+            évolué au fil du temps. Tout d’abord, il n’est pas qu’un spécialiste
+            des serrures de portes d’entrée. Il peut également s’occuper de la
+            serrure d’une fenêtre, d’un coffre-fort ou d’un portail.
+          </p>
+        </div>
+
+        {/*  */}
+        <div className="flex w-full flex-col gap-2">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] md:text-2xl font-bold">
+              Les principaux domaines d’un serrurier{" "}
+            </h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+            Les opérations de serrurerie Toulouse ne se limitent pas à la
+            reproduction de clefs et au dépannage de serrures. C’est en effet un
+            métier qui a constamment évolué au fil du temps. Tout d’abord, il
+            n’est pas qu’un spécialiste des serrures de portes d’entrée. Il peut
+            également s’occuper de la serrure d’une fenêtre, d’un coffre-fort ou
+            d’un portail.
+            <div className="w-full flex justify-start items-center">
+              <svg
+                className="text-red-500"
+                width="40"
+                height="40"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
+              </svg>{" "}
+              <h1 className="text-md md:text-md font-bold">
+                L’ouverture des serrures{" "}
+              </h1>
+            </div>
+            C’est le principal service proposé par un serrurier. Lorsque vous
+            perdez votre trousseau et ne pouvez plus rentrer chez vous, vous
+            pouvez faire appel à une urgence serrurier à Bordeaux pour vous
+            dépanner. Ce professionnel peut intervenir sur tous les systèmes
+            d’ouverture.
+          </p>
+          <p>
+            <div className="w-full flex justify-start items-center">
+              <svg
+                className="text-red-500"
+                width="40"
+                height="40"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
+              </svg>{" "}
+              <h1 className="text-md md:text-md font-bold">
+                Le dépannage d’une porte claquée
+              </h1>
+            </div>
+            Cette situation se produit très souvent. La porte d’entrée se
+            claque, alors que le trousseau est resté à l’intérieur. Ne s’ouvrant
+            qu’à double tours, seule l’intervention d’un serrurier permettra
+            d’ouvrir la porte sans avoir à détériorer les portes ou effectuer
+            des travaux de serrurerie importants. N'importe où en France, que
+            vous viviez à Paris, en province ou en ville, nous sommes tous un
+            jour confrontés à cette situation. Notre ligne de prix et tarif
+            correspond à celle d'un artisan spécialiste en serrurerie avec un
+            savoir-faire de longue date made in France. Vous pouvez consulter
+            les avis et comparatifs en ligne afin de comparer nos tarifs et vous
+            verrez que nos prix sont alignés avec ceux du marché.
+          </p>
+          <p>
+            <div className="w-full flex justify-start items-center">
+              <svg
+                className="text-red-500"
+                width="40"
+                height="40"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
+              </svg>{" "}
+              <h1 className="text-md md:text-md font-bold">
+                Le dépannage de porte ou de serrure bloquée
+              </h1>
+            </div>
+            Plusieurs raisons et avis peuvent expliquer le blocage d’une porte.
+            On peut citer un mauvais fonctionnement du cylindre ou une tentative
+            de cambriolage. Dans les deux cas, la clé ne permet plus d’ouvrir la
+            porte. Aussi, le serrurier Toulouse est le plus qualifié pour vous
+            dépanner. Nous pouvons diagnostiquer le problème rapidement et vous
+            apporter une assistance immédiate.
+          </p>
+          <p>
+            <div className="w-full flex justify-start items-center">
+              <svg
+                className="text-red-500"
+                width="40"
+                height="40"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
+              </svg>{" "}
+              <h1 className="text-md md:text-md font-bold">
+                Le remplacement de serrures
+              </h1>
+            </div>
+            Dans le cadre de la rénovation de vos portes, d’un portail de garage
+            ou d’une fenêtre, le savoir-faire et l’expertise d'une société
+            d'artisan spécialisée en serrurerie sont indispensables.
+            L'installation de serrure de qualité fait en effet partie de ses
+            domaines d’intervention. Si l’option la plus économique consiste à
+            remplacer le cylindre, la plus sécuritaire est de modifier
+            complètement le système de verrouillage. Il existe aujourd’hui un
+            large choix de produits de serrurerie pour équiper vos menuiseries.
+            On peut citer les serrures multipoints et celles connectées qui
+            offrent un niveau de protection maximal.
+          </p>
+          <p>
+            <div className="w-full flex justify-start items-center">
+              <svg
+                className="text-red-500"
+                width="40"
+                height="40"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
+              </svg>{" "}
+              <h1 className="text-md md:text-md font-bold">
+                La reproduction de clé
+              </h1>
+            </div>
+            Cette prestation s’adresse aux personnes qui ont perdu leurs clefs
+            ou qui ont besoin d’un nouveau trousseau pour les autres occupants
+            de leur maison. Ainsi, en cas de perte, cela leur évite de remplacer
+            le cylindre et économiserez sur le prix et tarifs finaux de votre
+            prestation.
+          </p>
+        </div>
+        {/*  */}
+        <div className="flex w-full flex-col gap-2">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] md:text-2xl font-bold">
+              Les sous-domaines du métier de serrurier
+            </h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+            Le métier de serrurier est englobé dans le domaine du BTP. Il se
+            charge de la pose, de l’entretien et de la réparation des
+            installations. Il travaille aussi bien sur les portes que la
+            charpente (pylône, pont…) et la menuiserie (fenêtre, véranda,
+            garage…). En fonction de ses domaines d’expertise, on distingue des
+            sous-domaines du métier de serrurier :
+          </p>
+          <div className="w-full flex justify-start items-center md:flex-row flex-col gap-3">
+            <div>
+              <h1 className="text-md md:text-md font-bold flex items-center justify-start">
+                <svg
+                  className="text-red-500"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 10.8a3.6 3.6 0 1 0 0-7.2 3.6 3.6 0 0 0 0 7.2ZM3.6 21.6a8.4 8.4 0 0 1 16.8 0H3.6Z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Le serrurier-métallier{" "}
+              </h1>
+              <p>
+                Le serrurier-métallier est spécialisé dans la ferronnerie d’art.
+                Outre le travail des serruriers artisans, de réparation des
+                gonds et des clés, il travaille sur différentes constructions
+                métalliques, notamment la charpente et la menuiserie. En effet,
+                son intervention se déroule après celle du charpentier
+                métallique. Il est chargé de façonner des feuilles nervurées,
+                des volutes et des portails. D’ailleurs, il peut collaborer avec
+                l’architecte et le décorateur sur le terrain. Après avoir
+                réalisé son ouvrage, il s’occupe de son installation, ainsi que
+                de l’entretien et de la maintenance des différents éléments.{" "}
+              </p>
+            </div>
+            <div>
+              <h1 className="text-md md:text-md font-bold flex items-center justify-start">
+                <svg
+                  className="text-red-500"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 10.8a3.6 3.6 0 1 0 0-7.2 3.6 3.6 0 0 0 0 7.2ZM3.6 21.6a8.4 8.4 0 0 1 16.8 0H3.6Z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Le serrurier dépanneur
+              </h1>
+              <p>
+                {" "}
+                Comme son nom l’indique, le serrurier dépanneur se charge des
+                dépannages d’urgence dans toute la ville de Toulouse. Il peut
+                s’agir de portes bloquées, de clé perdue, d’une porte claquée ou
+                de la perte de trousseau. Certifié et diplômé d’État, votre
+                serrurier Obert Toulouse vous assure une intervention fiable et
+                efficace à tout moment.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        {/*  */}
+    
+        <div className="flex w-full flex-col gap-2">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] md:text-2xl font-bold">
+            Serrurier Bordeaux : un expert polyvalent. 
+            </h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+          Le serrurier dispose de compétences techniques spécifiques en matière de dépannage et travaux de serrurerie, lui permettant de s’adresser à une clientèle variée. C’est un professionnel polyvalent qui peut intervenir dans différents domaines en rapport avec les serrures. Vous pouvez par exemple contacter un serrurier automobile pour un dépannage de serrure pour votre voiture. Quelle que soit la situation, il trouvera toujours une solution à chaque problème. En cas d’urgence, cet expert se tient à vos côtés.
+          </p>
+          
+              <p>
+              Demandez un devis gratuit pour vous faire une idée et un avis de tarif pour l’ensemble de la prestation. Cela vous aidera à faire une comparaison des offres en fonction de vos objectifs. En plus d’intervenir sur la pose de serrures, nous proposons aussi des travaux de remplacement de vitrage. Quel que soit le type de dépannage dont vous avez besoin, confiez-le à l’entreprise serrurerie vitrier Rapid Dépannage  33 et vous profiterez d’une qualité de service irréprochable avec un niveau de tarif juste et saint.
+              </p>
+           
         </div>
       </section>
     </div>
