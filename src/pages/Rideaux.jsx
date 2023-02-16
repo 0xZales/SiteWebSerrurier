@@ -41,12 +41,7 @@ const Rideaux = () => {
           Nous intervenons sur le département de la Gironde. Quelque soit votre
           soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3 px-7 left-1 py-4">
-          <div className="w-full h-14 flex items-center justify-center gap-3">
-            <div className="w-2/12 h-[2px] bg-white"></div>
-            <p className="text-xl italic">On vous rappelle </p>
-            <div className="w-2/12 h-[2px] bg-white"></div>
-          </div>
+        <div className="w-[400px] h-[80px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3  left-1 p-4">
 
           <button
             className="w-full bg-[#061729] h-14 text-white flex items-center justify-center gap-3 text-xl rounded-md"

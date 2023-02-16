@@ -154,10 +154,25 @@ const Serrurier = () => {
                 </svg>{" "}
                 <p className="text-md"> Ouverture clé cassée </p>
               </div>
-              <button className="w-3/4 bg-orange-500 h-10 rounded-md">
-                {" "}
-                Appeler
-              </button>
+              <button
+            className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
+            onClick={callNumber}
+          >
+            Appelez-nous !{" "}
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </button>
             </div>
 
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
@@ -212,10 +227,25 @@ const Serrurier = () => {
                 </svg>{" "}
                 <p className="text-md"> OSécurisation de logement </p>
               </div>
-              <button className="w-3/4 bg-orange-500 h-10 rounded-md uppercase">
-                {" "}
-                Appeler
-              </button>
+              <button
+            className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
+            onClick={callNumber}
+          >
+            Appelez-nous !{" "}
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </button>
             </div>
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
               <h1 className="text-left w-full">Service de vitrerie</h1>
@@ -269,10 +299,25 @@ const Serrurier = () => {
                 </svg>{" "}
                 <p className="text-md"> Fermeture provisoire</p>
               </div>
-              <button className="w-3/4 bg-orange-500 h-10 rounded-md uppercase">
-                {" "}
-                Appeler
-              </button>
+              <button
+            className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
+            onClick={callNumber}
+          >
+            Appelez-nous !{" "}
+            <svg
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </button>
             </div>
           </div>
         </div>
