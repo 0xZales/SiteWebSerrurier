@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
       <Header />
         <Routes>
-          <Route path="/rideaux-metallique" element={<Rideaux />} />
+          {/* <Route path="/rideaux-metallique" element={<Rideaux />} /> */}
           <Route path="/" element={<Serrurier />} />
           <Route path="/vitrerie" element={<Vitrine />} />
           <Route path="/tarifs" element={<Tarifs />} />

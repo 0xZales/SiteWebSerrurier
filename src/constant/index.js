@@ -9,11 +9,11 @@ export const navLikns = [
         title: "Vitrier"
         , link: 'vitrerie'
     },
-    {
-        id: 3,
-        title: "Rideau métallique",
-        link: 'rideaux-metallique'
-    },
+    // {
+    //     id: 3,
+    //     title: "Rideau métallique",
+    //     link: 'rideaux-metallique'
+    // },
     {
         id: 4,
         title: "Tarifs",
