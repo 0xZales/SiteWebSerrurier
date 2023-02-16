@@ -61,7 +61,7 @@ const Header = () => {
           </svg>
           <img src={logo} alt="Logo" className="h-16" />
           <p className="text-lg font-bold mt-1 uppercase">
-            Rapide dépannage 33
+            Rapid dépannage 33
           </p>
           <div className="flex gap-1 text-xs font-bold mt-1">
             <p>Serrurerie -</p>
