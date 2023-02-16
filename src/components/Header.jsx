@@ -36,11 +36,11 @@ const Header = () => {
           ))}
         </ul>
       </div>
-      <div className="w-full bg-orange-500 flex md:flex-row flex-col  justify-between items-center md:px-10 py-3 md:text-lg text-xs gap-4">
+      {/* <div className="w-full bg-orange-500 flex md:flex-row flex-col  justify-between items-center md:px-10 py-3 md:text-lg text-xs gap-4">
         <p>Artisan Serrurier Bordeaux </p>
         <p>Email : rapid.depannage33@gmail.com | Tél. 06 51 38 83 66</p>
-      </div>
-      <div className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white h-36">
+      </div> */}
+      <div className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white ">
         <div className="bg-white flex flex-col items-center justify-center h-full md:p-4 text-black relative">
           <svg
           onClick={()=>setVisible(!visible)}
@@ -59,11 +59,11 @@ const Header = () => {
             <path d="M3 6h18"></path>
             <path d="M3 18h18"></path>
           </svg>
-          <img src={logo} alt="Logo" className="h-16" />
-          <p className="text-lg font-bold mt-1 uppercase">
+          <img src={logo} alt="Logo" className="h-32" />
+          <p className="text-base font-bold mt-1 uppercase ">
             Rapid dépannage 33
           </p>
-          <div className="flex gap-1 text-xs font-bold mt-1">
+          <div className="flex gap-1 text-xs font-bold">
             <p>Serrurerie -</p>
             <p>Vitrerie -</p>
             <p>Rideaux Métallique</p>

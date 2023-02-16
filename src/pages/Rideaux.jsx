@@ -32,12 +32,12 @@ const Rideaux = () => {
         style={{ backgroundImage: `url(${banner})` }}
       >
         <div className="w-full h-full bg-[#061729] opacity-60 absolute"></div>
-        <img
+        {/* <img
           src={certif}
           alt=""
           className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
-        />
-        <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-48 md:text-4xl font-bold">
+        /> */}
+         <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-32 md:text-4xl text-2xl font-bold">
           Nous intervenons sur le département de la Gironde. Quelque soit votre
           soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
