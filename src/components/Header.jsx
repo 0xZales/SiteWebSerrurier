@@ -37,8 +37,8 @@ const Header = () => {
         </ul>
       </div>
       <div className="w-full bg-orange-500 flex md:flex-row flex-col  justify-between items-center md:px-10 py-3 md:text-lg text-xs gap-4">
-        <p>Artisan Serrurier Toulouse : 6 Rue Maurice Hurel, 31500 Toulouse </p>
-        <p>Email : contact@depanneur-toulousain.fr | Tél. 06 45 79 25 44</p>
+        <p>Artisan Serrurier Bordeaux </p>
+        <p>Email : rapid.depannage33@gmail.com | Tél. 06 51 38 83 66</p>
       </div>
       <div className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white h-36">
         <div className="bg-white flex flex-col items-center justify-center h-full md:p-4 text-black relative">

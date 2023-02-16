@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 import banner from "../assets/Serrurier.jpg";
 import certif from "../assets/certificat.png";
 import porte from "../assets/porte.jpg";
-import locked from "../assets/portecle.jpg";
+import locked from "../assets/vitre.jpg";
 const Vitrine = () => {
   const callNumber = () => {
-    // Remplacez le numéro ci-dessous par le numéro que vous souhaitez appeler
-    var phoneNumber = "0123456789";
+    var phoneNumber = "0651388366";
 
-    // Vérifie si le navigateur supporte la fonction d'appel
     if ("contacts" in navigator) {
       navigator.contacts.find(
         ["phoneNumbers"],
@@ -27,7 +25,7 @@ const Vitrine = () => {
   };
   return (
     <div>
-     <section
+      <section
         className={` banner w-full h-[500px] banner  text-black bg-cover bg-center bg-sky-500/100 relative `}
         style={{ backgroundImage: `url(${banner})` }}
       >
@@ -37,10 +35,11 @@ const Vitrine = () => {
           alt=""
           className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         />
-        <h1 className="absolute text-white md:left-[20%] left-8 top-48 text-4xl font-bold">
-          Ouverture de porte
+        <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-48 md:text-4xl font-bold">
+          Nous intervenons sur le département de la Gironde. Quelque soit votre
+          soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
+        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3 px-7 left-1 py-4">
           <div className="w-full h-14 flex items-center justify-center gap-3">
             <div className="w-2/12 h-[2px] bg-white"></div>
             <p className="text-xl italic">On vous rappelle </p>
@@ -68,99 +67,97 @@ const Vitrine = () => {
           </button>
         </div>
       </section>
-    <section className="w-full flex flex-col  gap-1 md:px-[20%] py-10 px-3">
-      <div className="flex w-full flex-col ">
-        <div className="flex gap-2 items-center justify-start">
-          <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-          <h1 className="text-[#061729] text-2xl font-bold">
-            L'ouverture de porte
+      <section className="w-full flex flex-col  gap-1 md:px-[20%] py-10 px-3">
+        <div className="flex w-full flex-col ">
+          <div className="flex gap-2 items-center justify-start">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] text-2xl font-bold">
+              Remplacement de vitrage cassé ou fissuré
+            </h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+            Des vitriers à votre service. Intempéries, choc thermique ou simple
+            accident, le bris d’une baie vitrée, d’une vitre de fenêtre ou de
+            porte-fenêtre pose problème tant pour la sécurité que pour
+            l’isolation. Autant un simple vitrage est relativement simple à
+            remplacer pour un bricoleur, autant les remplacements de vitrage,
+            doubles et triples ainsi que les panneaux de verre sécurisés
+            demandent un savoir faire et un matériel de vitrier professionnels.
+          </p>
+          <p>
+            Simple vitrage, petit carreau ou grande surface (vitrage feuilleté,
+            opaque , armé, teinté, de couleur, effet miroir, ou acoustique), un
+            double vitrage (ordinaire, sécurité, acoustique ou thermique), ou
+            encore un triple vitrage (feuilleté ou acoustique). S’il ne peut
+            être remplacé immédiatement, nos vitriers pourrons à votre demande,
+            procéder à une sécurisation provisoire des lieux avant d’effectuer
+            la pose du nouveau vitrage.
+          </p>
+        </div>
+        <div className="flex flex-col gap-2">
+          <h1 className="text-[#061729] text-xl font-bold">La vitre cassée</h1>
+          <p>
+            Vous ne pouvez pas rester avec une vitre cassée, que ce soit pour
+            des raisons de sécurité – vous ou un tiers pourrait se blesser, sans
+            parler de risque d’intrusion accru – ou pour des raisons d’isolation
+            et de confort. N’hésitez pas à solliciter notre équipe de vitriers
+            pour toute demande de remplacement de vitrage sur devis gratuit.
+          </p>
+          <img src={porte} alt="Serrurier" className="md:w-2/4 m-auto" />
+        </div>
+        <div className="flex flex-col gap-2 mt-2 w-full">
+          <h1 className="text-[#061729] text-xl font-bold">
+            L'isolation thermique et acoustique
           </h1>
-          <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          <div className="flex md:flex-row w-full flex-col items-center">
+            <p className="md:w-[50%]">
+              Avec le temps, les qualités d’isolation des double et triple
+              vitrages diminuent sensiblement. Nous pouvons améliorer vos
+              résistances acoustique de 32 à 50 db. Nous pouvons remplacer les
+              vitrages simples par des doubles vitrages, ce qui apporte un gain
+              thermique et acoustique considérable et immédiat à votre logement.
+              Si vous constatez des courants d’air fenêtres fermées, si les
+              parois sont froides ou si de la condensation se forme entre les
+              vitrages, il est temps de faire remplacer vos vitre par un vitrie
+            </p>
+            <img
+              src={locked}
+              alt="serrurier"
+              className="md:w-[30%] md:mt-0 mt-3"
+            />
+          </div>
         </div>
-        <p>
-          Vous avez perdu vos clés, vous êtes victime d’un cambriolage, vous
-          avez tout simplement claqué la porte et vous ne pouvez plus rentrer.
-          Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-          pour vous dépanner, sans changer la serrure si ce n’est pas
-          nécessaire en pratiquant la technique d’ouverture fine pour
-          l’ouverture de votre porte.
-        </p>
-        <br />
-        <p>
-          Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-          pour vous dépanner, sans changer la serrure si ce n’est pas
-          nécessaire en pratiquant la technique d’ouverture fine pour
-          l’ouverture de votre porte.
-        </p>
-      </div>
-      <div className="flex flex-col gap-2">
-        <h1 className="text-[#061729] text-xl font-bold">La porte claquée</h1>
-        <p>
-          {" "}
-          Lorsqu’une porte – simple ou blindée – est claquée, la technique de
-          la feuille radio devrait permettre l’ouverture de la porte.
-          Ceci-dit, on a rarement une radiographie sous la main quand on se
-          retrouve coincé en extérieur. Votre dépanneur a, lui, à disposition
-          l’outillage nécessaire pour toute ouverture de porte sans endommager
-          la serrure.
-        </p>
-        <img src={porte} alt="Serrurier" className="md:w-2/4 m-auto" />
-      </div>
-      <div className="flex flex-col gap-2 mt-2 w-full">
-        <h1 className="text-[#061729] text-xl font-bold">
-          La porte fermée à clé
-        </h1>
-        <div className="flex md:flex-row w-full flex-col items-center">
-          <p className="md:w-[50%]">
-            {" "}
-            Lorsqu’une porte – simple ou blindée – est claquée, la technique
-            de la feuille radio devrait permettre l’ouverture de la porte.
-            Ceci-dit, on a rarement une radiographie sous la main quand on se
-            retrouve coincé en extérieur. Votre dépanneur a, lui, à
-            disposition l’outillage nécessaire pour toute ouverture de porte
-            sans endommager la serrure.
-          </p>
-          <img src={locked} alt="serrurier" className="md:w-[50%] md:mt-0 mt-3" />
-        </div>
-      </div>
 
-      <div className="flex flex-col gap-2 mt-2">
-        <h1 className="text-[#061729] text-xl font-bold">
-          Pose de serrure de boite aux lettres
-        </h1>
-        <div className="flex md:flex-row w-full flex-col gap-5 items-center">
-          <img src={locked} alt="serrurier" className="md:w-[30%]" />
-          <p className="md:w-[50%]">
-            {" "}
-            Vous avez perdu votre trousseau ou clé de la serrure de boite aux
-            lettres. Nous pouvons vous la remplacer.
-          </p>
+        <div className="flex flex-col gap-2 mt-2">
+          <h1 className="text-[#061729] text-xl font-bold">
+            Changements et réparation de vitrines
+          </h1>
+          <div className="flex md:flex-row w-full flex-col gap-5 items-center">
+            <p className="">
+              Que ce soit pour une vitrine de magasin, d’une boutique ou pour
+              une baie vitrée pour votre intérieur, nous
+              offrons une solution sur mesure pour votre commerce ou votre maison.
+              La vitrine doit être à la fois attrayante, propre et sure dans le
+              but de laisser entrevoir les activités et la décoration réalisées
+              à l’intérieur du commerce et créer une atmosphère gaie et
+              chaleureuse afin d’inviter les visiteurs à entrer. Cela dans le
+              but de les convertir en clients potentiels. Les différentes
+              options de vitrerie pour vitrines :
+              <ul className="ml-5">
+                <li>simple vitrage</li>
+                <li>double vitrine</li>
+                <li>triple vitrage</li>
+                <li>Vitrine acoustique ou thermique.</li>
+              </ul>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div className="flex flex-col gap-2 mt-2">
-        <h1 className="text-[#061729] text-xl font-bold">
-          Pose de ferme porte
-        </h1>
-        <div className="flex md:flex-row w-full flex-col gap-5 items-center">
-          <p className="md:w-[50%]">
-            {" "}
-            Le ferme porte aussi appelé groom est un dispositif font le
-            mécanisme assure la fermeture automatique d’une porte. Ce
-            dispositif permet d’assurer la fermeture d’une porte de hall,
-            d’escalier ou d’un portail en toute sécurité. Il existe des fermes
-            porte à bras compas, à bras coulissant ou à ressort. Quel que soit
-            le modèle, il est indispensable de porter une attention toute
-            particulière à la pose, pour que le ferme porte joue pleinement
-            son rôle. Obert Serrurier Toulouse vous accompagne dans le choix,
-            la pose et les réglages de votre ferme porte.
-          </p>
-          <img src={locked} alt="serrurier" className="md:w-[50%]" />
-        </div>
-      </div>
-    </section>
-  </div>
-  )
-}
+       
+      </section>
+    </div>
+  );
+};
 
-export default Vitrine
+export default Vitrine;

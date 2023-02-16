@@ -5,10 +5,7 @@ import porte from "../assets/porte.jpg";
 import locked from "../assets/portecle.jpg";
 const Serrurier = () => {
   const callNumber = () => {
-    // Remplacez le numéro ci-dessous par le numéro que vous souhaitez appeler
-    var phoneNumber = "0123456789";
-
-    // Vérifie si le navigateur supporte la fonction d'appel
+    var phoneNumber = "0651388366";
     if ("contacts" in navigator) {
       navigator.contacts.find(
         ["phoneNumbers"],
@@ -37,10 +34,11 @@ const Serrurier = () => {
           alt=""
           className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         />
-        <h1 className="absolute text-white md:left-[20%] left-8 top-48 text-4xl font-bold">
-          Ouverture de porte
+        <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-48 md:text-4xl font-bold">
+          Nous intervenons sur le département de la Gironde. Quelque soit votre
+          soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
+        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3 px-7 left-1 py-4">
           <div className="w-full h-14 flex items-center justify-center gap-3">
             <div className="w-2/12 h-[2px] bg-white"></div>
             <p className="text-xl italic">On vous rappelle </p>
@@ -78,13 +76,20 @@ const Serrurier = () => {
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
-            Vous avez besoin d’un serrurier vitrier en urgence fiable en moins
-            de 30 min ? Nous intervenons sur Bordeaux, la Gironde, Archachon et
-            son bassin. Quelque soit votre soucis de serrurerie ou vitrerie sur
-            Bordeaux : Ouverture de porte Porte claquée Perte de clés Clé cassée
-            Serrure blindée qui ne ferme ou ne s’ouvre plus Serrure forcée Votre
-            porte ne peut pas s’ouvrir Votre vitrage est à remplacer. Rapid
-            Dépannage 33 intervient dans les domaines de la serrurerie et
+            Vous avez besoin d’un serrurier vitrier d’urgence en moins de 30 min
+            ? Nous intervenons sur le département de la Gironde. Quelque soit
+            votre soucis de serrurerie,vitrerie ou rideaux métallique :
+            <ul className="ml-5">
+              <li>Ouverture de porte</li>
+              <li>Porte claquée</li>
+              <li>Perte de clés</li>
+              <li>Clé cassée</li>
+              <li>Serrure blindée qui ne ferme ou ne s’ouvre plus</li>
+              <li>Serrure forcée</li>
+              <li>Votre porte ne peut pas s’ouvrir</li>
+              <li>Votre vitrage est à remplacer.</li>
+            </ul>
+            RAPID DEPANNAGE 33 intervient dans les domaines de la serrurerie et
             vitrerie. Votre serrurier vitrier d’urgence certifié et diplômé
             d’état. Devis gratuit.
           </p>
@@ -108,30 +113,39 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">Assurance</h1>
+            <h1 className="text-[#061729] text-2xl font-bold">Nos conseils</h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
+            <h1 className="text-xl font-bold">Assurance</h1>
             Pensez à vérifier votre couverture en cas d’effraction ou de perte
             de clés. En effet, votre banque ou votre assurance habitation
             peuvent couvrir tous services et réparations de vitrerie. Que ce
             soit pour une vitre cassée ou fissurée (avec la prise en charge par
             l’assurance de “bris de glace”). Un serrurier d’urgence intervient
-            pour: ouverture de porte simple ou porte blindée remplacement de
-            cylindre ou serrure en fonction des clauses incluses dans les
-            contrats. Avant les vacances Pensez à l’opération Tranquillité
-            Vacances Prévenez la Gendarmerie Vérifiez l’état de vos portes et
-            serrures Prévenez vos voisins
-          </p>
-          <img src={locked} alt="serrurier" className="md:w-[50%]" />
-        </div>
-        <div className="flex w-full flex-col gap-3">
-          <div className="flex gap-2 items-center justify-start">
-            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">Cambriolage</h1>
-            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-          </div>
-          <p>
+            pour:
+            <ul className="ml-5">
+              <li>ouverture de porte simple ou porte blindée</li>
+              <li>
+                remplacement de cylindre ou serrure en fonction des clauses
+                incluses dans les contrats.
+              </li>
+            </ul>
+            <h1 className="text-xl font-bold">Avant les vacances</h1>
+            <ul className="ml-5">
+              <li>Pensez à l’opération Tranquillité Vacances</li>
+              <li>
+                <a
+                  href="https://www.gendarmerie.interieur.gouv.fr/"
+                  className="text-orange-500"
+                >
+                  Prévenez la Gendarmerie
+                </a>
+              </li>
+              <li>Vérifiez l’état de vos portes et serrures</li>
+              <li>Prévenez vos voisins</li>
+            </ul>
+            <h1 className="text-xl font-bold">Cambriolage</h1>
             Si vous avez été cambriolé, votre porte ou cylindre ont été forcé ou
             cassé, une vitre cassée, contactez immédiatement la Police ou la
             Gendarmerie Nationale. Contactez ensuite votre assurance, ainsi
@@ -139,7 +153,18 @@ const Serrurier = () => {
             serrure ou remplacement de vitrage à Bordeaux pour la mise en
             sécurité.
           </p>
-          <img src={porte} alt="Serrurier" className="md:w-2/4 m-auto" />
+          <img src={locked} alt="serrurier" className="md:w-[50%]" />
+        </div>
+        <div className="flex w-full flex-col gap-3">
+          <div className="flex gap-2 items-center justify-center">
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+            <h1 className="text-[#061729] text-2xl font-bold">Serrurier intervention rapide</h1>
+            <div className="w-1/12 h-[2px] bg-[#061729]"></div>
+          </div>
+          <p>
+          Nous intervenons en général en moins de 30mn sur Bordeaux et en moins d'une
+heure dans les autres zones de l'aire urbaine de Bordeaux - 24h/24 et 7j/7
+          </p>
         </div>
       </section>
     </div>

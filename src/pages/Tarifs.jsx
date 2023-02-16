@@ -1,33 +1,31 @@
-import React from 'react'
+import React from "react";
 import banner from "../assets/Serrurier.jpg";
 import certif from "../assets/certificat.png";
 import porte from "../assets/porte.jpg";
 import locked from "../assets/portecle.jpg";
 const Tarifs = () => {
-    const callNumber = () => {
-        // Remplacez le numéro ci-dessous par le numéro que vous souhaitez appeler
-        var phoneNumber = "0123456789";
-    
-        // Vérifie si le navigateur supporte la fonction d'appel
-        if ("contacts" in navigator) {
-          navigator.contacts.find(
-            ["phoneNumbers"],
-            function (contacts) {
-              var contact = contacts[0];
-              var number = contact.phoneNumbers[0].value;
-              window.open("tel:" + number);
-            },
-            function () {
-              window.open("tel:" + phoneNumber);
-            }
-          );
-        } else {
+  const callNumber = () => {
+    var phoneNumber = "0651388366";
+
+    if ("contacts" in navigator) {
+      navigator.contacts.find(
+        ["phoneNumbers"],
+        function (contacts) {
+          var contact = contacts[0];
+          var number = contact.phoneNumbers[0].value;
+          window.open("tel:" + number);
+        },
+        function () {
           window.open("tel:" + phoneNumber);
         }
-      };
+      );
+    } else {
+      window.open("tel:" + phoneNumber);
+    }
+  };
   return (
     <div>
-       <section
+        <section
         className={` banner w-full h-[500px] banner  text-black bg-cover bg-center bg-sky-500/100 relative `}
         style={{ backgroundImage: `url(${banner})` }}
       >
@@ -37,10 +35,11 @@ const Tarifs = () => {
           alt=""
           className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         />
-        <h1 className="absolute text-white md:left-[20%] left-8 top-48 text-4xl font-bold">
-          Ouverture de porte
+        <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-48 md:text-4xl font-bold">
+          Nous intervenons sur le département de la Gironde. Quelque soit votre
+          soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-64 flex flex-col gap-3 px-7 left-1 py-4">
+        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3 px-7 left-1 py-4">
           <div className="w-full h-14 flex items-center justify-center gap-3">
             <div className="w-2/12 h-[2px] bg-white"></div>
             <p className="text-xl italic">On vous rappelle </p>
@@ -72,95 +71,24 @@ const Tarifs = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">
-              L'ouverture de porte
+            <h1 className="text-[#061729] md:text-2xl font-bold">
+              Grille tarifaire Serrurerie / Vitrerie
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
-          <p>
-            Vous avez perdu vos clés, vous êtes victime d’un cambriolage, vous
-            avez tout simplement claqué la porte et vous ne pouvez plus rentrer.
-            Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-            pour vous dépanner, sans changer la serrure si ce n’est pas
-            nécessaire en pratiquant la technique d’ouverture fine pour
-            l’ouverture de votre porte.
-          </p>
-          <br />
-          <p>
-            Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-            pour vous dépanner, sans changer la serrure si ce n’est pas
-            nécessaire en pratiquant la technique d’ouverture fine pour
-            l’ouverture de votre porte.
-          </p>
+          <p>Ouverture de porte 95 € </p>
+          <p>Remplacement de cylindre 85 €</p>
+          <p>Remplacement batteuse de boite aux lettres 55 €</p>
+          <p>Déplacement 60 €</p>
+          <p>Main d'oeuvre 70 €</p>
         </div>
-        <div className="flex flex-col gap-2">
-          <h1 className="text-[#061729] text-xl font-bold">La porte claquée</h1>
-          <p>
-            {" "}
-            Lorsqu’une porte – simple ou blindée – est claquée, la technique de
-            la feuille radio devrait permettre l’ouverture de la porte.
-            Ceci-dit, on a rarement une radiographie sous la main quand on se
-            retrouve coincé en extérieur. Votre dépanneur a, lui, à disposition
-            l’outillage nécessaire pour toute ouverture de porte sans endommager
-            la serrure.
-          </p>
-          <img src={porte} alt="Serrurier" className="md:w-2/4 m-auto" />
-        </div>
-        <div className="flex flex-col gap-2 mt-2 w-full">
-          <h1 className="text-[#061729] text-xl font-bold">
-            La porte fermée à clé
-          </h1>
-          <div className="flex md:flex-row w-full flex-col items-center">
-            <p className="md:w-[50%]">
-              {" "}
-              Lorsqu’une porte – simple ou blindée – est claquée, la technique
-              de la feuille radio devrait permettre l’ouverture de la porte.
-              Ceci-dit, on a rarement une radiographie sous la main quand on se
-              retrouve coincé en extérieur. Votre dépanneur a, lui, à
-              disposition l’outillage nécessaire pour toute ouverture de porte
-              sans endommager la serrure.
-            </p>
-            <img src={locked} alt="serrurier" className="md:w-[50%] md:mt-0 mt-3" />
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold">
-            Pose de serrure de boite aux lettres
-          </h1>
-          <div className="flex md:flex-row w-full flex-col gap-5 items-center">
-            <img src={locked} alt="serrurier" className="md:w-[30%]" />
-            <p className="md:w-[50%]">
-              {" "}
-              Vous avez perdu votre trousseau ou clé de la serrure de boite aux
-              lettres. Nous pouvons vous la remplacer.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold">
-            Pose de ferme porte
-          </h1>
-          <div className="flex md:flex-row w-full flex-col gap-5 items-center">
-            <p className="md:w-[50%]">
-              {" "}
-              Le ferme porte aussi appelé groom est un dispositif font le
-              mécanisme assure la fermeture automatique d’une porte. Ce
-              dispositif permet d’assurer la fermeture d’une porte de hall,
-              d’escalier ou d’un portail en toute sécurité. Il existe des fermes
-              porte à bras compas, à bras coulissant ou à ressort. Quel que soit
-              le modèle, il est indispensable de porter une attention toute
-              particulière à la pose, pour que le ferme porte joue pleinement
-              son rôle. Obert Serrurier Toulouse vous accompagne dans le choix,
-              la pose et les réglages de votre ferme porte.
-            </p>
-            <img src={locked} alt="serrurier" className="md:w-[50%]" />
-          </div>
-        </div>
+        <p className="text-sm">
+          Majoration de 50% pour les interventions de 18h à 8h, les weekends et
+          jours fériés
+        </p>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Tarifs
+export default Tarifs;
