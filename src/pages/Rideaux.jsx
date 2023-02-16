@@ -49,7 +49,7 @@ const Rideaux = () => {
           </div>
 
           <button
-            className="w-full bg-[#061729] h-14 text-white flex items-center justify-center gap-3 text-xl"
+            className="w-full bg-[#061729] h-14 text-white flex items-center justify-center gap-3 text-xl rounded-md"
             onClick={callNumber}
           >
             Appelez-nous !{" "}

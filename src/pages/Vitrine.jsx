@@ -104,7 +104,6 @@ const Vitrine = () => {
             et de confort. N’hésitez pas à solliciter notre équipe de vitriers
             pour toute demande de remplacement de vitrage sur devis gratuit.
           </p>
-          <img src={porte} alt="Serrurier" className="md:w-2/4 m-auto" />
         </div>
         <div className="flex flex-col gap-2 mt-2 w-full">
           <h1 className="text-[#061729] text-xl font-bold">
