@@ -24,7 +24,7 @@ const Tarifs = () => {
     }
   };
   return (
-    <div>
+    <div className="text-sm md:text-base">
         <section
         className={` banner w-full h-[500px] banner  text-black bg-cover bg-center bg-sky-500/100 relative `}
         style={{ backgroundImage: `url(${banner})` }}
@@ -39,15 +39,10 @@ const Tarifs = () => {
           Nous intervenons sur le département de la Gironde. Quelque soit votre
           soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
-        <div className="w-[400px] h-[150px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3 px-7 left-1 py-4">
-          <div className="w-full h-14 flex items-center justify-center gap-3">
-            <div className="w-2/12 h-[2px] bg-white"></div>
-            <p className="text-xl italic">On vous rappelle </p>
-            <div className="w-2/12 h-[2px] bg-white"></div>
-          </div>
+        <div className="md:w-[400px] w-[80%] h-[80px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-[45%] top-[60%] flex flex-col gap-3  left-10 p-4">
 
           <button
-            className="w-full bg-[#061729] h-14 text-white flex items-center justify-center gap-3 text-xl"
+            className="w-full bg-[#061729] h-14 text-white flex items-center justify-center gap-3 text-xl rounded-md"
             onClick={callNumber}
           >
             Appelez-nous !{" "}
@@ -71,7 +66,7 @@ const Tarifs = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-2xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold">
               Grille tarifaire Serrurerie / Vitrerie
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>

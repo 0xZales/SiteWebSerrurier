@@ -23,7 +23,7 @@ const Serrurier = () => {
     }
   };
   return (
-    <div>
+    <div className="text-sm md:text-base">
       <section
         className={` banner w-full h-[500px] banner  text-black bg-cover bg-center bg-sky-500/100 relative `}
         style={{ backgroundImage: `url(${banner})` }}
@@ -38,15 +38,10 @@ const Serrurier = () => {
           Nous intervenons sur le département de la Gironde. Quelque soit votre
           soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
-        <div className="w-[400px] h-[150px] bg-gray-400 absolute md:right-[50%] md:left-[70%]  md:top-40 top-[60%] flex flex-col gap-3 px-7 left-1 py-4">
-          <div className="w-full h-14 flex items-center justify-center gap-3">
-            <div className="w-2/12 h-[2px] bg-white"></div>
-            <p className="text-xl italic">On vous rappelle </p>
-            <div className="w-2/12 h-[2px] bg-white"></div>
-          </div>
+        <div className="md:w-[400px] w-[80%] h-[80px] bg-orange-500 absolute md:right-[50%] md:left-[70%]  md:top-[45%] top-[60%] flex flex-col gap-3  left-10 p-4">
 
           <button
-            className="w-full bg-orange-500 h-14 text-white flex items-center justify-center gap-3 text-xl rounded-md"
+            className="w-full bg-[#061729] h-14 text-white flex items-center justify-center gap-3 text-xl rounded-md"
             onClick={callNumber}
           >
             Appelez-nous !{" "}
@@ -70,7 +65,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">
+            <h1 className="text-[#061729]  text-xl font-bold">
               Serrurerie - Vitrerie - Rideaux Métallique
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -98,12 +93,12 @@ const Serrurier = () => {
         <div className="flex w-full  flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">Nos tarifs</h1>
+            <h1 className="text-[#061729]  text-xl font-bold">Nos tarifs</h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <div className="w-full  flex md:flex-row flex-col gap-3">
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
-              <h1 className="text-left w-full">Ouverture de porte</h1>
+              <h1 className="text-left w-full font-bold">Ouverture de porte</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
               <h1 className="w-full text-left"> A partir de 95 € HT </h1>
               <div className="w-full flex justify-start items-center ">
@@ -116,7 +111,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md">Ouverture porte claquée</p>
+                <p >Ouverture porte claquée</p>
               </div>
               <div className="w-full flex justify-start items-center ">
                 <svg
@@ -128,7 +123,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md">Ouverture porte fermée à clé</p>
+                <p >Ouverture porte fermée à clé</p>
               </div>
               <div className="w-full flex justify-start items-center">
                 <svg
@@ -140,7 +135,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Ouverture de porte blindée </p>
+                <p > Ouverture de porte blindée </p>
               </div>
               <div className="w-full flex justify-start items-center">
                 <svg
@@ -152,7 +147,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Ouverture clé cassée </p>
+                <p > Ouverture clé cassée </p>
               </div>
               <button
             className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
@@ -176,7 +171,7 @@ const Serrurier = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
-              <h1 className="text-left w-full">Service de serrurerie</h1>
+              <h1 className="text-left w-full font-bold">Service de serrurerie</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
               <h1 className="w-full text-left"> A partir de 55 € </h1>
               <div className="w-full flex justify-start items-center ">
@@ -189,7 +184,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Remplacement de cylindre </p>
+                <p > Remplacement de cylindre </p>
               </div>
               <div className="w-full flex justify-start items-center ">
                 <svg
@@ -201,7 +196,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Remplacement de serrure </p>
+                <p > Remplacement de serrure </p>
               </div>
               <div className="w-full flex justify-start items-center">
                 <svg
@@ -213,7 +208,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Pose de serrure A2P </p>
+                <p > Pose de serrure A2P </p>
               </div>
               <div className="w-full flex justify-start items-center">
                 <svg
@@ -225,7 +220,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> OSécurisation de logement </p>
+                <p > Sécurisation de logement </p>
               </div>
               <button
             className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
@@ -248,7 +243,7 @@ const Serrurier = () => {
           </button>
             </div>
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
-              <h1 className="text-left w-full">Service de vitrerie</h1>
+              <h1 className="text-left w-full font-bold">Service de vitrerie</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
               <h1 className="w-full text-left"> Nous consulter </h1>
               <div className="w-full flex justify-start items-center ">
@@ -261,7 +256,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Remplacement simple vitrage </p>
+                <p > Remplacement simple vitrage </p>
               </div>
               <div className="w-full flex justify-start items-center ">
                 <svg
@@ -273,7 +268,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md">Remplacement double vitrage </p>
+                <p >Remplacement double vitrage </p>
               </div>
               <div className="w-full flex justify-start items-center">
                 <svg
@@ -285,7 +280,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Remplacement vitrine sécurité</p>
+                <p > Remplacement vitrine sécurité</p>
               </div>
               <div className="w-full flex justify-start items-center">
                 <svg
@@ -297,7 +292,7 @@ const Serrurier = () => {
                 >
                   <path d="m10.585 13.415-2.828-2.829L6.343 12l4.242 4.243 7.071-7.071-1.414-1.414-5.657 5.657Z"></path>
                 </svg>{" "}
-                <p className="text-md"> Fermeture provisoire</p>
+                <p > Fermeture provisoire</p>
               </div>
               <button
             className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
@@ -325,7 +320,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold">
               Domaines d'intervention
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -341,7 +336,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold">Nos conseils</h1>
+            <h1 className="text-[#061729] text-xl font-bold">Nos conseils</h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
@@ -384,10 +379,10 @@ const Serrurier = () => {
           <img src={locked} alt="serrurier" className="md:w-[50%]" />
         </div>
 
-        <div className="flex w-full flex-col gap-3 ">
+        <div className="flex w-full flex-col gap-3 mt-3">
           <div className="flex gap-2 items-center justify-center">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-2xl font-bold">
+            <h1 className="text-[#061729] md:text-xl font-bold">
               Nos valeurs
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -436,7 +431,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-3">
           <div className="flex gap-2 items-center justify-center">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-2xl font-bold">
+            <h1 className="text-[#061729] md:text-xl font-bold">
               Serrurier Bordeaux : nos zones d'opération entreprise en France
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -491,7 +486,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-2xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold">
               Les principaux domaines d’un serrurier{" "}
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -629,7 +624,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-2xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold">
               Les sous-domaines du métier de serrurier
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -709,7 +704,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-2xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold">
             Serrurier Bordeaux : un expert polyvalent. 
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
