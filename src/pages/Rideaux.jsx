@@ -2,7 +2,7 @@ import React from 'react'
 import banner from "../assets/Serrurier.jpg";
 import certif from "../assets/certificat.png";
 import porte from "../assets/porte.jpg";
-import locked from "../assets/portecle.jpg";
+import locked from "../assets/rideau.jpg";
 const Rideaux = () => {
   const callNumber = () => {
     // Remplacez le numéro ci-dessous par le numéro que vous souhaitez appeler
@@ -74,25 +74,14 @@ const Rideaux = () => {
         <div className="flex gap-2 items-center justify-start">
           <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           <h1 className="text-[#061729] text-2xl font-bold">
-            L'ouverture de porte
+            Rideaux Métalliques
           </h1>
           <div className="w-1/12 h-[2px] bg-[#061729]"></div>
         </div>
         <p>
-          Vous avez perdu vos clés, vous êtes victime d’un cambriolage, vous
-          avez tout simplement claqué la porte et vous ne pouvez plus rentrer.
-          Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-          pour vous dépanner, sans changer la serrure si ce n’est pas
-          nécessaire en pratiquant la technique d’ouverture fine pour
-          l’ouverture de votre porte.
+        Protégez votre local commercial ou industriel avec nos rideaux métalliques sur mesure. ChezRapide dépannage 33, nous proposons une large gamme de solutions de sécurité pour répondre à vos besoins spécifiques.
         </p>
-        <br />
-        <p>
-          Quel que soit le cas de figure, Obert Toulouse intervient rapidement
-          pour vous dépanner, sans changer la serrure si ce n’est pas
-          nécessaire en pratiquant la technique d’ouverture fine pour
-          l’ouverture de votre porte.
-        </p>
+        <img src={locked} alt="Image ridau metallique" />
       </div>
       <div className="flex flex-col gap-2">
         <h1 className="text-[#061729] text-xl font-bold">La porte claquée</h1>
@@ -121,7 +110,6 @@ const Rideaux = () => {
             disposition l’outillage nécessaire pour toute ouverture de porte
             sans endommager la serrure.
           </p>
-          <img src={locked} alt="serrurier" className="md:w-[50%] md:mt-0 mt-3" />
         </div>
       </div>
 
