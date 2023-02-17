@@ -66,7 +66,7 @@ const Tarifs = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold my-6">
               Grille tarifaire Serrurerie / Vitrerie
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>

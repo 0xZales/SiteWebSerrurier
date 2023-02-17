@@ -65,7 +65,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729]  text-xl font-bold">
+            <h1 className="text-[#061729]  text-xl font-bold my-6">
               Serrurerie - Vitrerie - Rideaux Métallique
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -93,7 +93,7 @@ const Serrurier = () => {
         <div className="flex w-full  flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729]  text-xl font-bold">Nos tarifs</h1>
+            <h1 className="text-[#061729]  text-xl font-bold my-6">Nos tarifs</h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <div className="w-full  flex md:flex-row flex-col gap-3">
@@ -320,7 +320,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold my-6">
               Domaines d'intervention
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -336,11 +336,11 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold">Nos conseils</h1>
+            <h1 className="text-[#061729] text-xl font-bold my-6">Nos conseils</h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
-            <h1 className="text-xl font-bold">Assurance</h1>
+            <h1 className="text-xl font-bold my-4">Assurance</h1>
             Pensez à vérifier votre couverture en cas d’effraction ou de perte
             de clés. En effet, votre banque ou votre assurance habitation
             peuvent couvrir tous services et réparations de vitrerie. Que ce
@@ -354,7 +354,7 @@ const Serrurier = () => {
                 incluses dans les contrats.
               </li>
             </ul>
-            <h1 className="text-xl font-bold">Avant les vacances</h1>
+            <h1 className="text-xl font-bold my-4">Avant les vacances</h1>
             <ul className="ml-5">
               <li>Pensez à l’opération Tranquillité Vacances</li>
               <li>
@@ -368,7 +368,7 @@ const Serrurier = () => {
               <li>Vérifiez l’état de vos portes et serrures</li>
               <li>Prévenez vos voisins</li>
             </ul>
-            <h1 className="text-xl font-bold">Cambriolage</h1>
+            <h1 className="text-xl font-bold my-4">Cambriolage</h1>
             Si vous avez été cambriolé, votre porte ou cylindre ont été forcé ou
             cassé, une vitre cassée, contactez immédiatement la Police ou la
             Gendarmerie Nationale. Contactez ensuite votre assurance, ainsi
@@ -382,26 +382,26 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-3 mt-3">
           <div className="flex gap-2 items-center justify-center">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold my-6">
               Nos valeurs
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <div className="w-full flex md:flex-row flex-col gap-5">
             <div className="flex flex-col md:w-4/12">
-              <h1 className="underline mb-2 ">Serrurier intervention rapide</h1>
+              <h1 className="underline my-6 font-bold">Serrurier intervention rapide</h1>
               Nous intervenons en général en moins de 30mn sur Bordeaux et en
               moins d'une heure dans les autres zones de l'aire urbaine de
               Bordelaise - 24h/24 et 7j/7
             </div>
             <div className="flex flex-col md:w-4/12">
-              <h1 className="underline md-2">Serrurier intervention rapide</h1>
+              <h1 className="underline my-6 font-bold">Serrurier intervention rapide</h1>
               Nous intervenons en général en moins de 30mn sur Bordeaux et en
               moins d'une heure dans les autres zones de l'aire urbaine de
               Bordelaise - 24h/24 et 7j/7
             </div>
             <div className="flex flex-col md:w-4/12">
-              <h1 className="underline md-2">
+              <h1 className="underline my-6 font-bold">
                 Zones d’intervention en détail.
               </h1>
               Bordeaux, Bordeaux lac, Floirac, Talence, Cenon, Bruges, Eysines,
@@ -431,7 +431,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-3">
           <div className="flex gap-2 items-center justify-center">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] md:text-xl font-bold">
+            <h1 className="text-[#061729] text-xl my-6 font-bold">
               Serrurier Bordeaux : nos zones d'opération entreprise en France
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -486,7 +486,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold my-6">
               Les principaux domaines d’un serrurier{" "}
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -498,7 +498,7 @@ const Serrurier = () => {
             n’est pas qu’un spécialiste des serrures de portes d’entrée. Il peut
             également s’occuper de la serrure d’une fenêtre, d’un coffre-fort ou
             d’un portail.
-            <div className="w-full flex justify-start items-center">
+            <div className="w-full flex justify-start items-center my-3">
               <svg
                 className="text-red-500"
                 width="40"
@@ -520,7 +520,7 @@ const Serrurier = () => {
             d’ouverture.
           </p>
           <p>
-            <div className="w-full flex justify-start items-center">
+            <div className="w-full flex justify-start items-center my-3">
               <svg
                 className="text-red-500"
                 width="40"
@@ -548,7 +548,7 @@ const Serrurier = () => {
             verrez que nos prix sont alignés avec ceux du marché.
           </p>
           <p>
-            <div className="w-full flex justify-start items-center">
+            <div className="w-full flex justify-start items-center my-3">
               <svg
                 className="text-red-500"
                 width="40"
@@ -571,7 +571,7 @@ const Serrurier = () => {
             apporter une assistance immédiate.
           </p>
           <p>
-            <div className="w-full flex justify-start items-center">
+            <div className="w-full flex justify-start items-center my-3">
               <svg
                 className="text-red-500"
                 width="40"
@@ -598,7 +598,7 @@ const Serrurier = () => {
             offrent un niveau de protection maximal.
           </p>
           <p>
-            <div className="w-full flex justify-start items-center">
+            <div className="w-full flex justify-start items-center my-3">
               <svg
                 className="text-red-500"
                 width="40"
@@ -624,7 +624,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold my-6">
               Les sous-domaines du métier de serrurier
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -639,7 +639,7 @@ const Serrurier = () => {
           </p>
           <div className="w-full flex justify-start items-center md:flex-row flex-col gap-3">
             <div>
-              <h1 className="text-md md:text-md font-bold flex items-center justify-start">
+              <h1 className="text-md md:text-md font-bold flex items-center justify-start my-4">
                 <svg
                   className="text-red-500"
                   width="25"
@@ -670,7 +670,7 @@ const Serrurier = () => {
               </p>
             </div>
             <div>
-              <h1 className="text-md md:text-md font-bold flex items-center justify-start">
+              <h1 className="text-md md:text-md font-bold flex items-center justify-start my-4">
                 <svg
                   className="text-red-500"
                   width="25"
@@ -704,7 +704,7 @@ const Serrurier = () => {
         <div className="flex w-full flex-col gap-2">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold">
+            <h1 className="text-[#061729] text-xl font-bold my-6">
             Serrurier Bordeaux : un expert polyvalent. 
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
