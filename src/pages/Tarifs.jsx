@@ -1,8 +1,5 @@
 import React from "react";
 import banner from "../assets/Serrurier.jpg";
-import certif from "../assets/certificat.png";
-import porte from "../assets/porte.jpg";
-import locked from "../assets/portecle.jpg";
 const Tarifs = () => {
   const callNumber = () => {
     var phoneNumber = "0651388366";
@@ -35,7 +32,7 @@ const Tarifs = () => {
           alt=""
           className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         /> */}
-            <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-32 md:text-4xl text-2xl font-bold">
+            <h1 className="absolute md:w-1/2 text-white md:left-[15%] left-8 top-24 md:text-4xl text-2xl font-bold">
           Nous intervenons sur le département de la Gironde. Quelque soit votre
           soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
@@ -59,7 +56,7 @@ const Tarifs = () => {
             >
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
-          </button>
+          </button> 
         </div>
       </section>
       <section className="w-full flex flex-col  gap-1 md:px-[20%] py-10 px-3">

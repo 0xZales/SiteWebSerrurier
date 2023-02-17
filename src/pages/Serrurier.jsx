@@ -1,8 +1,6 @@
 import React from "react";
 import banner from "../assets/Serrurier.jpg";
-import certif from "../assets/certificat.png";
-import porte from "../assets/porte.jpg";
-import locked from "../assets/portecle.jpg";
+import locked from "../assets/porte.jpg";
 const Serrurier = () => {
   const callNumber = () => {
     var phoneNumber = "0651388366";
@@ -34,7 +32,7 @@ const Serrurier = () => {
           alt="Certification"
           className="z-10 opacity-100 absolute md:left-20 top-10 left-[33%]"
         /> */}
-        <h1 className="absolute md:w-1/2 text-white md:left-[20%] left-8 top-32 md:text-4xl text-2xl font-bold">
+        <h1 className="absolute md:w-1/2 text-white md:left-[15%] left-8 top-24 md:text-4xl text-2xl font-bold">
           Nous intervenons sur le département de la Gironde. Quelque soit votre
           soucis de serrurerie,vitrerie ou rideaux métallique
         </h1>
