@@ -419,7 +419,7 @@ const Serrurier = () => {
             assurons un travail impeccable et réalisé dans les meilleurs délais,
             en vue de garantir votre sécurité. Serrurier Bordeaux : nos zones
             d'opération entreprise en France Contactez la société Rapid
-            Dépannage Toulouse, pour une assistance avec une ligne de service de
+            Dépannage Bordeaux, pour une assistance avec une ligne de service de
             qualité fiable en moins d’une demi-heure. Quelle que soit la
             prestation dont vous avez besoin, nous prenons en charge l’opération
             pour préserver la sécurité de votre domicile ou de votre local
@@ -492,7 +492,7 @@ const Serrurier = () => {
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
           <p>
-            Les opérations de serrurerie Toulouse ne se limitent pas à la
+            Les opérations de serrurerie Bordeaux ne se limitent pas à la
             reproduction de clefs et au dépannage de serrures. C’est en effet un
             métier qui a constamment évolué au fil du temps. Tout d’abord, il
             n’est pas qu’un spécialiste des serrures de portes d’entrée. Il peut
@@ -566,7 +566,7 @@ const Serrurier = () => {
             Plusieurs raisons et avis peuvent expliquer le blocage d’une porte.
             On peut citer un mauvais fonctionnement du cylindre ou une tentative
             de cambriolage. Dans les deux cas, la clé ne permet plus d’ouvrir la
-            porte. Aussi, le serrurier Toulouse est le plus qualifié pour vous
+            porte. Aussi, le serrurier Bordeaux est le plus qualifié pour vous
             dépanner. Nous pouvons diagnostiquer le problème rapidement et vous
             apporter une assistance immédiate.
           </p>
@@ -690,10 +690,10 @@ const Serrurier = () => {
               <p>
                 {" "}
                 Comme son nom l’indique, le serrurier dépanneur se charge des
-                dépannages d’urgence dans toute la ville de Toulouse. Il peut
+                dépannages d’urgence dans toute la ville de Bordeaux. Il peut
                 s’agir de portes bloquées, de clé perdue, d’une porte claquée ou
                 de la perte de trousseau. Certifié et diplômé d’État, votre
-                serrurier Obert Toulouse vous assure une intervention fiable et
+                serrurier Rapid Dépannage 33 Bordeaux vous assure une intervention fiable et
                 efficace à tout moment.{" "}
               </p>
             </div>
