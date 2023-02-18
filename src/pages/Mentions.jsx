@@ -11,12 +11,12 @@ const Mentions = () => {
           Le présent site internet <a href="https://www.rapid-depannage33.fr/" className='text-[#061729]'>https://www.rapid-depannage33.fr/</a> est la propriété de <span className='text-[#061729] '>Rapid Dépannage 33</span>, un serrurier vitrier enregistré au Registre du Commerce et des Sociétés de Bordeaux sous le numéro    <span className='text-[#061729]'> 807 507 405 </span> <br /> .
         </p>
         <p className='leading-10'>
-          Siège social :
-          <span className='text-[#061729] '>24 rue Brulatour
+          Siège social : 
+          <span className='text-[#061729] '> 24 rue Brulatour
             33800 Bordeaux</span><br />
           Téléphone :  <span className='text-[#061729]'>0651388366</span> <br />
           E-mail : <span className='text-[#061729]'>contact@rapid-depannage33.fr </span> <br />
-          Responsable publication : <a href="https://0xzalesdev.netlify.app/" target='_blank'>Rozales Assimpah</a> <br />
+          Responsable publication : <a href="https://0xzalesdev.netlify.app/" target='_blank' className='text-[#061729]'>Rozales Assimpah</a> <br />
           Hébergeur : <span className='text-[#061729]'> OVH, 2 rue Kellermann – 59100 ROUBAIX – France </span> <br /> 
         </p>
 
