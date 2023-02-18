@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <div className="w-full relative">
-      <div className={`absolute w-[80%] bg-[#061729] left-[10%] md:hidden ${visible? "flex ":"hidden"} flex text-white z-50 top-[50%]`}>
+      <div className={`absolute w-[80%] bg-[#061729] left-[10%] md:hidden ${visible? "flex ":"hidden"} flex text-white z-50 top-[50%] `}>
         <ul className="w-full text-center">
           {navLikns.map((link) => (
             <div
@@ -40,7 +40,7 @@ const Header = () => {
         <p>Artisan Serrurier Bordeaux </p>
         <p>Email : rapid.depannage33@gmail.com | Tél. 06 51 38 83 66</p>
       </div> */}
-      <div className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white ">
+      <a className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white cursor-pointer" href="/">
         <div className="bg-white flex flex-col items-center justify-center  md:p-4 text-black relative ">
           <svg
           onClick={()=>setVisible(!visible)}
@@ -81,7 +81,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </a>
     </div>
   );
 };
