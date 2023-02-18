@@ -41,7 +41,7 @@ const Header = () => {
         <p>Email : rapid.depannage33@gmail.com | Tél. 06 51 38 83 66</p>
       </div> */}
       <div className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white ">
-        <div className="bg-white flex flex-col items-center justify-center h-full md:p-4 text-black relative">
+        <div className="bg-white flex flex-col items-center justify-center  md:p-4 text-black relative ">
           <svg
           onClick={()=>setVisible(!visible)}
             className="absolute right-1 top-0 cursor-pointer md:hidden flex"
@@ -59,11 +59,11 @@ const Header = () => {
             <path d="M3 6h18"></path>
             <path d="M3 18h18"></path>
           </svg>
-          <img src={logo} alt="Logo" className="h-32" />
-          <p className="text-base font-bold mt-1 uppercase ">
+          <img src={logo} alt="Logo" className="md:h-16 h-32" />
+          <p className="md:text-sm text-xl font-bold mt-1 uppercase ">
             Rapid dépannage 33
           </p>
-          <div className="flex gap-1 text-xs font-bold">
+          <div className="flex gap-1 text-xs font-bold md:mb-0 mb-3">
             <p>Serrurerie -</p>
             <p>Vitrerie -</p>
             <p>Rideaux Métallique</p>

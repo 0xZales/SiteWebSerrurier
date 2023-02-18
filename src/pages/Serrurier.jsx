@@ -96,7 +96,7 @@ const Serrurier = () => {
           </div>
           <div className="w-full  flex md:flex-row flex-col gap-3">
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
-              <h1 className="text-left w-full font-bold">Ouverture de porte</h1>
+              <h1 className="text-left w-full font-bold text-xl">Ouverture de porte</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
               <h1 className="w-full text-left"> A partir de 95 € HT </h1>
               <div className="w-full flex justify-start items-center ">
@@ -148,7 +148,7 @@ const Serrurier = () => {
                 <p > Ouverture clé cassée </p>
               </div>
               <button
-            className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
+            className=" w-3/4 bg-orange-500 h-10 uppercase text-md font-bold   flex items-center justify-center gap-3  rounded-md"
             onClick={callNumber}
           >
             Appelez-nous !{" "}
@@ -169,7 +169,7 @@ const Serrurier = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
-              <h1 className="text-left w-full font-bold">Service de serrurerie</h1>
+              <h1 className="text-left w-full font-bold text-xl">Service de serrurerie</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
               <h1 className="w-full text-left"> A partir de 55 € </h1>
               <div className="w-full flex justify-start items-center ">
@@ -221,7 +221,7 @@ const Serrurier = () => {
                 <p > Sécurisation de logement </p>
               </div>
               <button
-            className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
+            className=" w-3/4 bg-orange-500 h-10 uppercase text-md font-bold    flex items-center justify-center gap-3  rounded-md"
             onClick={callNumber}
           >
             Appelez-nous !{" "}
@@ -241,7 +241,7 @@ const Serrurier = () => {
           </button>
             </div>
             <div className="flex flex-col items-center justify-center  shadow-md md:w-4/12 w-full p-4 gap-4 ">
-              <h1 className="text-left w-full font-bold">Service de vitrerie</h1>
+              <h1 className="text-left w-full font-bold text-xl">Service de vitrerie</h1>
               <span className="h-[2px] w-3/4 bg-gray-300"></span>
               <h1 className="w-full text-left"> Nous consulter </h1>
               <div className="w-full flex justify-start items-center ">
@@ -293,7 +293,7 @@ const Serrurier = () => {
                 <p > Fermeture provisoire</p>
               </div>
               <button
-            className=" w-3/4 bg-orange-500 h-10 uppercase    flex items-center justify-center gap-3  rounded-md"
+            className=" w-3/4 bg-orange-500 h-10 uppercase text-md font-bold   flex items-center justify-center gap-3  rounded-md"
             onClick={callNumber}
           >
             Appelez-nous !{" "}
