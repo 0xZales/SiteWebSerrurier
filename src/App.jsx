@@ -18,6 +18,7 @@ function App() {
           <Route path="/rideaux-metallique" element={<Rideaux />} /> 
           <Route path="/" element={<Serrurier />} />
           <Route path="/vitrerie" element={<Vitrine />} />
+          <Route path="/*" element={<Serrurier />} />
           <Route path="/tarifs" element={<Tarifs />} />
         </Routes>
       </BrowserRouter>

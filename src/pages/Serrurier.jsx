@@ -71,8 +71,8 @@ const Serrurier = () => {
           <p>
             Vous avez besoin d’un serrurier vitrier d’urgence en moins de 30 min
             ? Nous intervenons sur le département de la Gironde. Quelque soit
-            votre soucis de serrurerie,vitrerie ou rideaux métallique :
-            <ul className="ml-5">
+            votre soucis de serrurerie,vitrerie ou rideaux métalliques :
+            <ul className="ml-5 flex flex-col gap-3 list-disc my-4">
               <li>Ouverture de porte</li>
               <li>Porte claquée</li>
               <li>Perte de clés</li>
