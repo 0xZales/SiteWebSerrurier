@@ -40,7 +40,7 @@ const Header = () => {
         <p>Artisan Serrurier Bordeaux </p>
         <p>Email : rapid.depannage33@gmail.com | Tél. 06 51 38 83 66</p>
       </div> */}
-      <a className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white cursor-pointer" href="/">
+        <div className="w-full bg-[#061729] md:flex  justify-between items-center md:px-[20%]  text-white cursor-pointer">
         <div className="bg-white flex flex-col items-center justify-center  md:p-4 text-black relative ">
           <svg
           onClick={()=>setVisible(!visible)}
@@ -59,7 +59,8 @@ const Header = () => {
             <path d="M3 6h18"></path>
             <path d="M3 18h18"></path>
           </svg>
-          <img src={logo} alt="Logo" className="md:h-16 h-32" />
+          <a href="/"><img src={logo} alt="Logo" className="md:h-16 h-32" /></a>
+          
           <p className="md:text-sm text-xl font-bold mt-1 uppercase ">
             Rapid dépannage 33
           </p>
@@ -81,7 +82,8 @@ const Header = () => {
             </li>
           ))}
         </ul>
-      </a>
+        </div>
+        
     </div>
   );
 };

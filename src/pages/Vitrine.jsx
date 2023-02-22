@@ -58,7 +58,7 @@ const Vitrine = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold my-6">
+            <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
               Remplacement de vitrage cassé ou fissuré
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -83,7 +83,7 @@ const Vitrine = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             La vitre cassée
           </h1>
           <p>
@@ -95,7 +95,7 @@ const Vitrine = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 mt-2 w-full">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             L'isolation thermique et acoustique
           </h1>
           <div className="flex md:flex-row w-full flex-col items-center">
@@ -118,7 +118,7 @@ const Vitrine = () => {
         </div>
 
         <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl my-6 font-bold">
+          <h1 className="text-[#061729] md:text-xl text-md my-6 font-bold">
             Changements et réparation de vitrines
           </h1>
           <div className="flex md:flex-row w-full flex-col gap-5 items-center">

@@ -63,16 +63,16 @@ const Tarifs = () => {
         <div className="flex w-full flex-col ">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-xl font-bold my-6">
+            <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
               Grille tarifaire Serrurerie / Vitrerie
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
           </div>
-          <p>Ouverture de porte 95 € </p>
-          <p>Remplacement de cylindre 85 €</p>
-          <p>Remplacement batteuse de boite aux lettres 55 €</p>
-          <p>Déplacement 60 €</p>
-          <p>Main d'oeuvre 70 €</p>
+          <p className="pb-3">Ouverture de porte 95 € </p>
+          <p className="pb-3">Remplacement de cylindre 85 €</p>
+          <p className="pb-3">Remplacement batteuse de boite aux lettres 55 €</p>
+          <p className="pb-3">Déplacement 60 €</p>
+          <p className="pb-3">Main d'oeuvre 70 €</p>
         </div>
         <p className="text-sm">
           Majoration de 50% pour les interventions de 18h à 8h, les weekends et

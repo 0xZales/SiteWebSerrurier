@@ -25,8 +25,8 @@ function App() {
           <Route path="/mentions-legales" element={<Mentions />} />
           <Route path="/politique-de-confidentialite" element={<Politiques />} />
         </Routes>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter>
     </div>
   );
 }

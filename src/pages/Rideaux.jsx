@@ -65,7 +65,7 @@ const Rideaux = () => {
         <div className="flex w-full flex-col gap-4">
           <div className="flex gap-2 items-center justify-start">
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
-            <h1 className="text-[#061729] text-2xl font-bold my-6">
+            <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
               Service Rideaux métalliques
             </h1>
             <div className="w-1/12 h-[2px] bg-[#061729]"></div>
@@ -94,7 +94,7 @@ const Rideaux = () => {
           <img src={locked} alt="Image ridau metallique" />
         </div>
         <div className="flex flex-col gap-2 mt-3">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             Installation rideaux métalliques
           </h1>
           <p>
@@ -114,7 +114,7 @@ const Rideaux = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 mt-2 w-full">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             Déblocage rideaux métalliques
           </h1>
           <div className="flex md:flex-row w-full flex-col items-center">
@@ -140,7 +140,7 @@ const Rideaux = () => {
         </div>
 
         <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             Réparation rideaux métalliques
           </h1>
           <div className="flex md:flex-row w-full flex-col gap-5 items-center">
@@ -170,7 +170,7 @@ const Rideaux = () => {
         </div>
 
         <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             Entretien des rideaux métalliques
           </h1>
           <div className="flex md:flex-row w-full flex-col gap-5 items-center">
@@ -193,7 +193,7 @@ const Rideaux = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2 mt-2">
-          <h1 className="text-[#061729] text-xl font-bold my-6">
+          <h1 className="text-[#061729] md:text-xl text-md font-bold my-6">
             Pourquoi faire confiance à Rapid Dépannage 33 pour vos Rideaux
             métalliques ?
           </h1>
