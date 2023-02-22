@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <div className="w-full relative">
-      <div className={`absolute w-[80%] bg-[#061729] left-[10%] md:hidden ${visible? "flex ":"hidden"} flex text-white z-50 top-[50%] `}>
+      <div className={`absolute w-[50%] bg-[#061729] left-[50%] md:hidden ${visible? "flex ":"hidden"} flex text-white z-50 top-[30%] rounded-md `}>
         <ul className="w-full text-center">
           {navLikns.map((link) => (
             <div
